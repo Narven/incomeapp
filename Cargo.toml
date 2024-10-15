@@ -1,0 +1,17 @@
+[package]
+name = "slint-rust-template"
+version = "0.1.0"
+edition = "2021"
+description = "Desktop app that devides up income."
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+slint = "1.7.2"
+
+[build-dependencies]
+slint-build = "1.7.2"
+
+[package.metadata.bundle]
+name = "Income Divider"
+identifier = "io.github.Narven.incomeapp"
